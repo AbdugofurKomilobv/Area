@@ -14,3 +14,8 @@ class ContactMe(BaseModel):
 
     def __str__(self):
         return self.name
+    
+
+class RegisterUserModel(BaseModel):
+    name = models.CharField(max_length=128)
+    
