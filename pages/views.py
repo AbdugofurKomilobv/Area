@@ -12,5 +12,8 @@ def home_pages_view(request):
        else:
           pass
        
-    return render(request,template_name='index_new.html')
+    return render(request,template_name='wolcome.html')
        
+
+def home_back_view(request):
+   return render(request,template_name='index_new.html')
